@@ -26,7 +26,7 @@ Stream = namedtuple("Stream", ["tap_stream_id", "sync_fn"])
 BOOK_KEYS = {
     IDS.CUSTOM_FIELDS: "date_updated",
     IDS.LEADS: "date_updated",
-    IDS.ACTIVITIES: "date_created",
+    IDS.ACTIVITIES: "date_updated",
     IDS.TASKS: "date_updated",
     IDS.USERS: "date_updated",
     IDS.EVENT_LOG: "date_updated",
